@@ -17,7 +17,7 @@ public class UsuarioService {
 	@Autowired
 	private UsuarioRepository repository;
 
-	public Optional<Usuario> CadastrarUsuario(Usuario usuario) {
+	public Optional<Usuario> CadastrarUsuario (Usuario usuario) {
 		
 		
 		if(repository.findByUsuario(usuario.getUsuario()).isPresent())

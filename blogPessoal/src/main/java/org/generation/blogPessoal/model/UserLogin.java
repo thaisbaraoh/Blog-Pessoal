@@ -16,7 +16,13 @@ public class UserLogin {
 	
 	private String tipo;
 	
+	public long getId() {
+		return id;
+	}
 
+	public void setId(long id) {
+		this.id = id;
+	}
 	
 	public String getNome() {
 		return nome;
@@ -64,15 +70,7 @@ public class UserLogin {
 
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
-	}
-
-	public long getId() {
-		return id;
-	}
-
-	public void setId(long id) {
-		this.id = id;
-	}
+	}	
 	
 	
 }
